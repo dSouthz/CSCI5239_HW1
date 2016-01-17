@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="95">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>Cube.h</itemPath>
+      <itemPath>Object.h</itemPath>
+      <itemPath>Sphere.h</itemPath>
+      <itemPath>Teapot.h</itemPath>
+      <itemPath>WaveOBJ.h</itemPath>
+      <itemPath>fish.h</itemPath>
+      <itemPath>hw01opengl.h</itemPath>
+      <itemPath>hw01viewer.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>hw01.frag</itemPath>
+      <itemPath>hw01.pro</itemPath>
+      <itemPath>hw01.qrc</itemPath>
+      <itemPath>hw01.vert</itemPath>
+      <itemPath>tyra.obj</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>Cube.cpp</itemPath>
+      <itemPath>Object.cpp</itemPath>
+      <itemPath>Sphere.cpp</itemPath>
+      <itemPath>Teapot.cpp</itemPath>
+      <itemPath>WaveOBJ.cpp</itemPath>
+      <itemPath>fish.cpp</itemPath>
+      <itemPath>hw01.cpp</itemPath>
+      <itemPath>hw01opengl.cpp</itemPath>
+      <itemPath>hw01viewer.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+      </compileType>
+      <item path="Cube.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cube.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sphere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Teapot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Teapot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WaveOBJ.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WaveOBJ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fish.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fish.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hw01.frag" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.pro" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.vert" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01opengl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hw01opengl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01viewer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hw01viewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tyra.obj" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="Cube.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Cube.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Object.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Object.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Sphere.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Sphere.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="Teapot.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="Teapot.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="WaveOBJ.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="WaveOBJ.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="fish.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="fish.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hw01.frag" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.pro" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.qrc" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01.vert" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01opengl.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hw01opengl.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="hw01viewer.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="hw01viewer.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="tyra.obj" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
