@@ -3,7 +3,7 @@ NDC to RGB Shader
 Diana Southard
 CSCI 5239 Spring 2016
 
-## Directions
+### Directions
 Create a program that displays a scene in 3D that can be viewed from any
 direction under user control.
 
@@ -14,7 +14,7 @@ in x,y,z) determines the color of the vertex using a linear mapping in RGB space
 Your program must work in both orthogonal and perspective, so NDC space starts as
 4D homogeneous coordinates and w will not be 1.
 
-## Program Use Instructions
+### Program Use Instructions
 
 
 **Time To Complete Assignment:** 
