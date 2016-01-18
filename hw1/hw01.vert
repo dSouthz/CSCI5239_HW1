@@ -1,18 +1,22 @@
 //  Basic vertex shader
 
-// uniform float time;
-// varying vec4 location;
+// vector fed to fragment shader containing RGB mapping
 varying vec4 vColor;
 
 
 void main()
 {
-   //  Use color unchanged
-   // foo = gl_Color;
    //  Set vertex coordinates
-   // vec4 pos = gl_Vertex + vec4(0.5*sin(4.0*time),0.5*cos(4.0*time),0.5*sin(time),0.0);
-   // gl_Position = gl_ModelViewProjectionMatrix * pos
+    gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
    
-     vColor = gl_ModelViewProjectionMatrix * gl_Vertex;
-   gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+    // Get pixel location in mapping vector
+    vColor = gl_Position;
+
+    // Map NDC (-1 to 1) to RGB (0 to 1):
+    // -1 to 1 -> 0 to 2 to be positive like RGB
+    // 0 to 2 -> NGB space is 2x as large as RBG -> divide by 2
+    // 
+    // 4D -> 3D
+    // w might not be 1 -> need to divide by w
+    vColor = (((vColor/vColor.w) + 1.0) / 2.0); 
 }

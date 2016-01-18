@@ -23,9 +23,7 @@ Use the dropdown menus to select between the following options:
 Use the sliders to adjust the display object's current position.
 *Note:* If the Basic shader option is selected, the object's current position will be used to set the object's vertex coloring.
 
-There is a checkbox to turn lighting on/off.
-
-Using the mouse, the object can be rotated by dragging with the right mouse button. Subsequent angles of rotation will be displayed below the lighting option. The scene can also be zoomed in/out by using the mouse wheel or scrolling with a touchpad.
+Using the mouse, the object can be rotated by dragging with the right mouse button. Subsequent angles of rotation will be displayed below the positioning sliders. The scene can also be zoomed in/out by using the mouse wheel or scrolling with a touchpad.
 
 Use the Quit button or the window's exit button to end the program.
 

@@ -27,4 +27,4 @@ Using the mouse, the object can be rotated by dragging with the right mouse butt
 
 Use the Quit button or the window's exit button to end the program.
 
-**Time To Complete Assignment:** 
+**Time To Complete Assignment:** ~ 7 hours
