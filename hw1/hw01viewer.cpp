@@ -89,10 +89,8 @@ Hw01viewer::Hw01viewer()
    layout->addWidget(ySlider,4,2);
    layout->addWidget(new QLabel("Z Position"),5,1);
    layout->addWidget(zSlider,5,2);
-   layout->addWidget(new QLabel("Lighting"),6,1);
-   layout->addWidget(lighting,6,2);
-   layout->addWidget(new QLabel("Angles"),7,1);
-   layout->addWidget(angles,7,2);
+   layout->addWidget(new QLabel("Angles"),6,1);
+   layout->addWidget(angles,6,2);
    layout->addWidget(quit,8,2);
    //  Manage resizing
    layout->setColumnStretch(0,100);

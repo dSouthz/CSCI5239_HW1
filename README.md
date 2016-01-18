@@ -15,6 +15,16 @@ Your program must work in both orthogonal and perspective, so NDC space starts a
 4D homogeneous coordinates and w will not be 1.
 
 #### Program Use Instructions
+Use the dropdown menus to select between the following options:
+- Shader: None or Basic
+- Projection: Orthogonal or Perspective
+- Object: Cube, Teapot, or T-Rex
 
+Use the sliders to adjust the display object's current position.
+*Note:* If the Basic shader option is selected, the object's current position will be used to set the object's vertex coloring.
+
+Using the mouse, the object can be rotated by dragging with the right mouse button. Subsequent angles of rotation will be displayed below the positioning sliders. The scene can also be zoomed in/out by using the mouse wheel or scrolling with a touchpad.
+
+Use the Quit button or the window's exit button to end the program.
 
 **Time To Complete Assignment:** 
