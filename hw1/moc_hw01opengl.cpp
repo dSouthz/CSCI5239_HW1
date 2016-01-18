@@ -19,8 +19,8 @@
 
 QT_BEGIN_MOC_NAMESPACE
 struct qt_meta_stringdata_Hw01opengl_t {
-    QByteArrayData data[10];
-    char stringdata[80];
+    QByteArrayData data[14];
+    char stringdata[128];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -38,10 +38,16 @@ QT_MOC_LITERAL(5, 34, 2),
 QT_MOC_LITERAL(6, 37, 14),
 QT_MOC_LITERAL(7, 52, 9),
 QT_MOC_LITERAL(8, 62, 4),
-QT_MOC_LITERAL(9, 67, 11)
+QT_MOC_LITERAL(9, 67, 12),
+QT_MOC_LITERAL(10, 80, 8),
+QT_MOC_LITERAL(11, 89, 12),
+QT_MOC_LITERAL(12, 102, 12),
+QT_MOC_LITERAL(13, 115, 11)
     },
     "Hw01opengl\0angles\0\0text\0setShader\0on\0"
-    "setPerspective\0setObject\0type\0setLighting\0"
+    "setPerspective\0setObject\0type\0"
+    "setXPosition\0position\0setYPosition\0"
+    "setZPosition\0setLighting\0"
 };
 #undef QT_MOC_LITERAL
 
@@ -51,7 +57,7 @@ static const uint qt_meta_data_Hw01opengl[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-       5,   14, // methods
+       8,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -59,13 +65,16 @@ static const uint qt_meta_data_Hw01opengl[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    1,   39,    2, 0x06,
+       1,    1,   54,    2, 0x06,
 
  // slots: name, argc, parameters, tag, flags
-       4,    1,   42,    2, 0x0a,
-       6,    1,   45,    2, 0x0a,
-       7,    1,   48,    2, 0x0a,
-       9,    1,   51,    2, 0x0a,
+       4,    1,   57,    2, 0x0a,
+       6,    1,   60,    2, 0x0a,
+       7,    1,   63,    2, 0x0a,
+       9,    1,   66,    2, 0x0a,
+      11,    1,   69,    2, 0x0a,
+      12,    1,   72,    2, 0x0a,
+      13,    1,   75,    2, 0x0a,
 
  // signals: parameters
     QMetaType::Void, QMetaType::QString,    3,
@@ -74,6 +83,9 @@ static const uint qt_meta_data_Hw01opengl[] = {
     QMetaType::Void, QMetaType::Int,    5,
     QMetaType::Void, QMetaType::Int,    5,
     QMetaType::Void, QMetaType::Int,    8,
+    QMetaType::Void, QMetaType::Int,   10,
+    QMetaType::Void, QMetaType::Int,   10,
+    QMetaType::Void, QMetaType::Int,   10,
     QMetaType::Void, QMetaType::Int,    5,
 
        0        // eod
@@ -88,7 +100,10 @@ void Hw01opengl::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 1: _t->setShader((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 2: _t->setPerspective((*reinterpret_cast< int(*)>(_a[1]))); break;
         case 3: _t->setObject((*reinterpret_cast< int(*)>(_a[1]))); break;
-        case 4: _t->setLighting((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 4: _t->setXPosition((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 5: _t->setYPosition((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 6: _t->setZPosition((*reinterpret_cast< int(*)>(_a[1]))); break;
+        case 7: _t->setLighting((*reinterpret_cast< int(*)>(_a[1]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -128,13 +143,13 @@ int Hw01opengl::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 5)
+        if (_id < 8)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 5;
+        _id -= 8;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 5)
+        if (_id < 8)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 5;
+        _id -= 8;
     }
     return _id;
 }

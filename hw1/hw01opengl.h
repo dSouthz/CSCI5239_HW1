@@ -37,6 +37,9 @@ public slots:
     void setShader(int on);                //  Slot to set shader
     void setPerspective(int on);           //  Slot to set projection type
     void setObject(int type);              //  Slot to set displayed object
+    void setXPosition(int position);       //  Slot to set object's X position
+    void setYPosition(int position);       //  Slot to set object's Y position
+    void setZPosition(int position);       //  Slot to set object's Z position
     void setLighting(int on);              //  Slot to set lighting
 signals:
     void angles(QString text);             //  Signal for view angles

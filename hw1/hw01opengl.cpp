@@ -8,6 +8,7 @@
 #include "WaveOBJ.h"
 #include "Teapot.h"
 #include <math.h>
+#include <iostream>
 #define Cos(th) cos(3.1415926/180*(th))
 #define Sin(th) sin(3.1415926/180*(th))
 
@@ -35,6 +36,46 @@ void Hw01opengl::setShader(int on)
    mode = on;
    //  Request redisplay
    updateGL();
+}
+
+//
+// Set X Position
+//
+void Hw01opengl::setXPosition(int position)
+{
+    float oldY = obj->getY();
+    float oldZ = obj->getZ();
+    obj->translate((float)position, oldY, oldZ);
+    
+    std::cout << position;
+    //  Request redisplay
+    updateGL();
+}
+
+//
+// Set Y Position
+//
+void Hw01opengl::setYPosition(int position)
+{
+    float oldX = obj->getX();
+    float oldZ = obj->getZ();
+    obj->translate(oldX, (float)position, oldZ);
+    
+    //  Request redisplay
+    updateGL();
+}
+
+//
+// Set Z Position
+//
+void Hw01opengl::setZPosition(int position)
+{
+    float oldX = obj->getX();
+    float oldY = obj->getY();
+    obj->translate(oldX, oldY, (float)position);
+    
+    //  Request redisplay
+    updateGL();
 }
 
 //

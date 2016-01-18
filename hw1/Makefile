@@ -311,9 +311,9 @@ compiler_rcc_make_all: qrc_hw01.cpp
 compiler_rcc_clean:
 	-$(DEL_FILE) qrc_hw01.cpp
 qrc_hw01.cpp: hw01.qrc \
-		tyra.obj \
 		hw01.vert \
-		hw01.frag
+		hw01.frag \
+		tyra.obj
 	/usr/lib/x86_64-linux-gnu/qt5/bin/rcc -name hw01 hw01.qrc -o qrc_hw01.cpp
 
 compiler_moc_header_make_all: moc_hw01viewer.cpp moc_hw01opengl.cpp

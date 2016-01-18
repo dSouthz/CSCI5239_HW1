@@ -20,6 +20,9 @@ public:
    void translate(float x,float y,float z); //  Set translation
    virtual void display()=0;                //  Render the object
    virtual ~Object() {};                    //  Do nothing destructor
+   float getX();                            // Return current x value
+   float getY();                            // Return current y value
+   float getZ();                            // Return current z value
 };
 
 #endif
