@@ -38,6 +38,7 @@ Hw01viewer::Hw01viewer()
    //  Select object
    QComboBox* object = new QComboBox();
    object->addItem("Cube");
+   object->addItem("Sphere");
    object->addItem("Teapot");
    object->addItem("T-Rex");
    

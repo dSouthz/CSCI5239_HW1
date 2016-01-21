@@ -7,6 +7,7 @@
 #include "Cube.h"
 #include "WaveOBJ.h"
 #include "Teapot.h"
+#include "Sphere.h"
 #include <math.h>
 #include <iostream>
 #define Cos(th) cos(3.1415926/180*(th))
@@ -130,6 +131,10 @@ void Hw01opengl::initializeGL()
    // Cube
    objects.push_back(new Cube());
 
+   // Sphere
+   Sphere* sphere = new Sphere(0,0,0,2,1,1,1 );
+   objects.push_back(sphere);
+   
    // Teapot
    Teapot* pot = new Teapot(8);
    pot->scale(0.5);
@@ -151,7 +156,7 @@ void Hw01opengl::initializeGL()
       tyra->color(1,1,0);
       objects.push_back(tyra);
    }
-
+   
    //  Set initial object
    obj = objects[0];
 
