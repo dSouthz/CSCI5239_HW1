@@ -28,7 +28,7 @@ Hw01viewer::Hw01viewer()
    //  Select shader
    QComboBox* shader = new QComboBox();
    shader->addItem("None");
-   shader->addItem("NDC to RGB Shader");
+   shader->addItem("Basic");
 
    //  Select projection
    QComboBox* projection = new QComboBox();
