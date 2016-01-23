@@ -14,5 +14,5 @@ void main()
     // 4D -> 3D
     // w might not be 1 -> need to divide by w to get
     // correct depth mapping
-    gl_FrontColor = (((gl_Position/gl_Position.w)+1.0 ) * 0.5);
+    gl_FrontColor = (((gl_Position/gl_Position.w)+1.0 ) / 2.0);
 }

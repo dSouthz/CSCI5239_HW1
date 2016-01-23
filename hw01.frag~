@@ -1,4 +1,4 @@
-//  NDC to RGB fragment shader
+//  Basic fragment shader
 
 void main()
 {
